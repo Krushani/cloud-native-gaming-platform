@@ -1,2 +1,68 @@
 # cloud-native-gaming-platform
 NDA-safe case study of a scalable real-time gaming backend built with .NET 8, Azure, and Microservices.
+
+
+---
+
+# 🚀 Featured Engineering Projects
+
+## 🎮 Cloud-Native Gaming Platform
+
+Imagine a gaming platform where thousands of players are connected at the same time and every update must appear instantly without delays.
+
+That’s the kind of backend system I helped build.
+
+### 🧠 The Challenge
+
+The platform needed to:
+- Support thousands of concurrent users
+- Deliver real-time updates with low latency
+- Scale during peak gaming activity
+- Stay stable under heavy workloads
+
+Traditional tightly coupled systems were creating scalability and performance limitations.
+
+---
+
+### 🛠️ Engineering Approach
+
+To solve this, I helped design a cloud-native microservices architecture using:
+- .NET 8
+- Azure Service Bus
+- WebSockets
+- Azure App Services
+- Azure SQL Server
+- Clean Architecture principles
+
+The platform used asynchronous messaging to decouple services and improve resiliency while WebSocket broadcasting handled live game updates in real time.
+
+---
+
+### ⚡ Key Contributions
+
+- Architected scalable backend services using .NET 8 and microservices patterns
+- Implemented Azure Service Bus workflows for event-driven communication
+- Built real-time WebSocket broadcasting for live gaming events
+- Automated multi-environment CI/CD deployments using Azure DevOps YAML pipelines
+- Optimized backend performance for concurrent user traffic
+
+---
+
+### 📈 Impact
+
+- Improved scalability by **35%**
+- Reduced live update latency by **30%**
+- Improved service resiliency by **25%**
+- Reduced release cycle time by **75%**
+- Supported **3,000+ concurrent users**
+
+---
+
+### 🧠 What This Project Taught Me
+
+This project strengthened my understanding of:
+- distributed systems design
+- production scalability
+- asynchronous communication
+- real-time backend architecture
+- cloud-native engineering practices
