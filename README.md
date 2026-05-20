@@ -66,3 +66,20 @@ This project strengthened my understanding of:
 - asynchronous communication
 - real-time backend architecture
 - cloud-native engineering practices
+
+---
+
+# ⚡ The Engineering Challenge
+
+The biggest challenge was building a backend system capable of handling real-time gaming events without performance degradation during peak concurrent traffic.
+
+The platform needed to:
+- support thousands of simultaneous users
+- process live game events with minimal latency
+- maintain service stability during traffic spikes
+- avoid tightly coupled service dependencies
+- enable faster and safer deployments
+
+Traditional monolithic approaches would create scalability bottlenecks and increase production risk as traffic grew.
+
+To solve this, the system was designed using a cloud-native microservices architecture with asynchronous event-driven communication.
