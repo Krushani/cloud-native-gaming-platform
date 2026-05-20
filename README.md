@@ -1,12 +1,19 @@
-# cloud-native-gaming-platform
-NDA-safe case study of a scalable real-time gaming backend built with .NET 8, Azure, and Microservices.
+## 🎮 Cloud-Native Gaming Platform
 
+🚀 A scalable real-time gaming backend built with .NET 8, Azure, and Microservices Architecture
 
+⚡ NDA-safe engineering case study focused on scalability, resiliency, and real-time performance.
 ---
 
-# 🚀 Featured Engineering Projects
+# 🧰 Tech Stack
 
-## 🎮 Cloud-Native Gaming Platform
+**Backend:** .NET 8, ASP.NET Core Web API  
+**Architecture:** Microservices, Clean Architecture, Event-Driven Design  
+**Cloud:** Microsoft Azure (App Services, Service Bus, SQL Database)  
+**Real-Time:** WebSockets  
+**DevOps:** Azure DevOps, YAML Pipelines, CI/CD  
+**Database:** SQL Server  
+**Observability (Planned):** Application Insights, OpenTelemetry  
 
 Imagine a gaming platform where thousands of players are connected at the same time and every update must appear instantly without delays.
 
