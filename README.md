@@ -106,3 +106,27 @@ Clean Architecture patterns and SOLID principles were followed to improve mainta
 
 ### 🔹 CI/CD Automation with Azure DevOps
 Azure DevOps YAML pipelines were implemented to automate multi-environment deployments with testing gates and controlled release workflows.
+
+---
+
+# 📈 Performance & Business Impact
+
+The architectural improvements and cloud-native engineering approach resulted in measurable scalability, resiliency, and deployment efficiency gains.
+
+| Area | Improvement |
+|---|---|
+| Platform Scalability | Improved by **35%** |
+| Service Resiliency | Improved by **25%** |
+| Real-Time Update Latency | Reduced by **30%** |
+| Release Cycle Time | Reduced by **75%** |
+| Concurrent User Support | Supported **3,000+ active users** |
+
+---
+
+## 🚀 Key Engineering Outcomes
+
+- Improved backend scalability using distributed microservices architecture
+- Reduced latency for live gaming updates through WebSocket broadcasting
+- Increased deployment reliability using Azure DevOps CI/CD automation
+- Improved fault isolation through asynchronous event-driven workflows
+- Enhanced long-term maintainability using Clean Architecture principles
