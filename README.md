@@ -7,6 +7,7 @@
 
 # 🧰 Tech Stack
 
+**Frontend:** React.js, Admin Dashboard UI  
 **Backend:** .NET 8, ASP.NET Core Web API  
 **Architecture:** Microservices, Clean Architecture, Event-Driven Design  
 **Cloud:** Microsoft Azure (App Services, Service Bus, SQL Database)  
@@ -50,6 +51,7 @@ The platform used asynchronous messaging to decouple services and improve resili
 - Architected scalable backend services using .NET 8 and microservices patterns
 - Implemented Azure Service Bus workflows for event-driven communication
 - Built real-time WebSocket broadcasting for live gaming events
+- Developed a React-based administrative dashboard for real-time platform monitoring, user management, operational analytics, and gaming  workflow administration
 - Automated multi-environment CI/CD deployments using Azure DevOps YAML pipelines
 - Optimized backend performance for concurrent user traffic
 
