@@ -83,3 +83,26 @@ The platform needed to:
 Traditional monolithic approaches would create scalability bottlenecks and increase production risk as traffic grew.
 
 To solve this, the system was designed using a cloud-native microservices architecture with asynchronous event-driven communication.
+
+---
+
+# 🏗️ Architecture & Engineering Decisions
+
+To improve scalability, resiliency, and maintainability, the platform was designed using a distributed microservices architecture instead of a tightly coupled monolithic system.
+
+## ⚙️ Key Design Decisions
+
+### 🔹 Microservices Architecture
+Independent services were used to separate core gaming workflows, allowing individual components to scale independently and reduce cross-service impact during failures.
+
+### 🔹 Azure Service Bus for Asynchronous Communication
+Azure Service Bus was implemented to decouple service communication and improve system resiliency through event-driven processing.
+
+### 🔹 Real-Time Communication with WebSockets
+WebSocket broadcasting services were used to deliver low-latency live game updates to connected users in real time.
+
+### 🔹 Clean Architecture & SOLID Principles
+Clean Architecture patterns and SOLID principles were followed to improve maintainability, testability, and long-term scalability of the platform.
+
+### 🔹 CI/CD Automation with Azure DevOps
+Azure DevOps YAML pipelines were implemented to automate multi-environment deployments with testing gates and controlled release workflows.
