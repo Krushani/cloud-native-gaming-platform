@@ -130,3 +130,70 @@ The architectural improvements and cloud-native engineering approach resulted in
 - Increased deployment reliability using Azure DevOps CI/CD automation
 - Improved fault isolation through asynchronous event-driven workflows
 - Enhanced long-term maintainability using Clean Architecture principles
+
+---
+
+# ⚙️ Production Performance Optimization
+
+One of the most valuable engineering experiences during this project involved troubleshooting recurring API latency spikes under high concurrent traffic conditions.
+
+## 🧠 The Problem
+
+During peak load scenarios, certain backend services began experiencing:
+- increased API response times
+- intermittent service delays
+- database query bottlenecks
+- elevated processing latency across distributed workflows
+
+These issues created stability risks for real-time gaming operations.
+
+---
+
+## 🔍 Investigation & Root Cause Analysis
+
+To identify the root causes, production telemetry and backend diagnostics were analyzed using:
+- application logs
+- SQL query profiling
+- distributed tracing
+- service-level performance monitoring
+
+The investigation revealed inefficient database queries and downstream service communication delays contributing to system-wide latency.
+
+---
+
+## 🚀 Optimization & Results
+
+Several backend optimizations were implemented, including:
+- SQL query optimization
+- improved asynchronous processing workflows
+- reduced service communication overhead
+- proactive monitoring and alerting improvements
+
+### 📈 Outcome
+- Reduced API response times by **45%**
+- Improved production stability under high traffic
+- Reduced recurring performance incidents
+
+  ---
+
+# 🧠 Key Learnings
+
+This project strengthened my understanding of:
+- distributed systems architecture
+- asynchronous event-driven communication
+- real-time backend scalability
+- production troubleshooting under high traffic
+- cloud-native engineering practices in Azure
+- designing resilient and maintainable backend services
+
+---
+
+# 🚀 Future Improvements
+
+If expanding this platform further, the next engineering improvements would include:
+- Redis-based distributed caching for read-heavy workloads
+- OpenTelemetry integration for deeper distributed tracing
+- Container orchestration using Kubernetes
+- Circuit breaker and retry policies using Polly
+- Horizontal auto-scaling for real-time communication services
+- Advanced observability dashboards and monitoring pipelines
