@@ -1,11 +1,11 @@
-## 🎮 Cloud-Native Gaming Platform
+## Cloud-Native Gaming Platform
 
-🚀 A scalable real-time gaming backend built with .NET 8, Azure, and Microservices Architecture
+A scalable real-time gaming backend built with .NET 8, Azure, and Microservices Architecture
 
-⚡ NDA-safe engineering case study focused on scalability, resiliency, and real-time performance.
+NDA-safe engineering case study focused on scalability, resiliency, and real-time performance.
 ---
 
-# 🧰 Tech Stack
+# Tech Stack
 
 **Frontend:** React.js, Admin Dashboard UI  
 **Backend:** .NET 8, ASP.NET Core Web API  
@@ -20,7 +20,7 @@ Imagine a gaming platform where thousands of players are connected at the same t
 
 That’s the kind of backend system I helped build.
 
-### 🧠 The Challenge
+### The Challenge
 
 The platform needed to:
 - Support thousands of concurrent users
@@ -32,7 +32,7 @@ Traditional tightly coupled systems were creating scalability and performance li
 
 ---
 
-### 🛠️ Engineering Approach
+### Engineering Approach
 
 To solve this, I helped design a cloud-native microservices architecture using:
 - .NET 8
@@ -46,7 +46,7 @@ The platform used asynchronous messaging to decouple services and improve resili
 
 ---
 
-### ⚡ Key Contributions
+### Key Contributions
 
 - Architected scalable backend services using .NET 8 and microservices patterns
 - Implemented Azure Service Bus workflows for event-driven communication
@@ -57,7 +57,7 @@ The platform used asynchronous messaging to decouple services and improve resili
 
 ---
 
-### 📈 Impact
+### Impact
 
 - Improved scalability by **35%**
 - Reduced live update latency by **30%**
@@ -67,7 +67,7 @@ The platform used asynchronous messaging to decouple services and improve resili
 
 ---
 
-### 🧠 What This Project Taught Me
+### What This Project Taught Me
 
 This project strengthened my understanding of:
 - distributed systems design
@@ -78,7 +78,7 @@ This project strengthened my understanding of:
 
 ---
 
-# ⚡ The Engineering Challenge
+# The Engineering Challenge
 
 The biggest challenge was building a backend system capable of handling real-time gaming events without performance degradation during peak concurrent traffic.
 
@@ -95,30 +95,30 @@ To solve this, the system was designed using a cloud-native microservices archit
 
 ---
 
-# 🏗️ Architecture & Engineering Decisions
+# Architecture & Engineering Decisions
 
 To improve scalability, resiliency, and maintainability, the platform was designed using a distributed microservices architecture instead of a tightly coupled monolithic system.
 
-## ⚙️ Key Design Decisions
+## Key Design Decisions
 
-### 🔹 Microservices Architecture
+### Microservices Architecture
 Independent services were used to separate core gaming workflows, allowing individual components to scale independently and reduce cross-service impact during failures.
 
-### 🔹 Azure Service Bus for Asynchronous Communication
+### Azure Service Bus for Asynchronous Communication
 Azure Service Bus was implemented to decouple service communication and improve system resiliency through event-driven processing.
 
-### 🔹 Real-Time Communication with WebSockets
+### Real-Time Communication with WebSockets
 WebSocket broadcasting services were used to deliver low-latency live game updates to connected users in real time.
 
-### 🔹 Clean Architecture & SOLID Principles
+### Clean Architecture & SOLID Principles
 Clean Architecture patterns and SOLID principles were followed to improve maintainability, testability, and long-term scalability of the platform.
 
-### 🔹 CI/CD Automation with Azure DevOps
+### CI/CD Automation with Azure DevOps
 Azure DevOps YAML pipelines were implemented to automate multi-environment deployments with testing gates and controlled release workflows.
 
 ---
 
-# 📈 Performance & Business Impact
+# Performance & Business Impact
 
 The architectural improvements and cloud-native engineering approach resulted in measurable scalability, resiliency, and deployment efficiency gains.
 
@@ -132,7 +132,7 @@ The architectural improvements and cloud-native engineering approach resulted in
 
 ---
 
-## 🚀 Key Engineering Outcomes
+## Key Engineering Outcomes
 
 - Improved backend scalability using distributed microservices architecture
 - Reduced latency for live gaming updates through WebSocket broadcasting
@@ -142,11 +142,11 @@ The architectural improvements and cloud-native engineering approach resulted in
 
 ---
 
-# ⚙️ Production Performance Optimization
+# Production Performance Optimization
 
 One of the most valuable engineering experiences during this project involved troubleshooting recurring API latency spikes under high concurrent traffic conditions.
 
-## 🧠 The Problem
+## The Problem
 
 During peak load scenarios, certain backend services began experiencing:
 - increased API response times
@@ -158,7 +158,7 @@ These issues created stability risks for real-time gaming operations.
 
 ---
 
-## 🔍 Investigation & Root Cause Analysis
+## Investigation & Root Cause Analysis
 
 To identify the root causes, production telemetry and backend diagnostics were analyzed using:
 - application logs
@@ -170,7 +170,7 @@ The investigation revealed inefficient database queries and downstream service c
 
 ---
 
-## 🚀 Optimization & Results
+## Optimization & Results
 
 Several backend optimizations were implemented, including:
 - SQL query optimization
@@ -178,14 +178,14 @@ Several backend optimizations were implemented, including:
 - reduced service communication overhead
 - proactive monitoring and alerting improvements
 
-### 📈 Outcome
+### Outcome
 - Reduced API response times by **45%**
 - Improved production stability under high traffic
 - Reduced recurring performance incidents
 
   ---
 
-# 🧠 Key Learnings
+# Key Learnings
 
 This project strengthened my understanding of:
 - distributed systems architecture
@@ -197,7 +197,7 @@ This project strengthened my understanding of:
 
 ---
 
-# 🚀 Future Improvements
+# Future Improvements
 
 If expanding this platform further, the next engineering improvements would include:
 - Redis-based distributed caching for read-heavy workloads
